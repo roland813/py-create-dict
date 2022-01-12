@@ -43,6 +43,11 @@ from app.main import create_dict
             ([], {}, "asdf"),
             "Cannot add [] to the dict!\nCannot add {} to the dict!\n",
             {"asdf": 2}
+        ),
+        (
+            ("a", (1, [2, 3]), "b"),
+            "Cannot add (1, [2, 3]) to the dict!\n",
+            {"a": 0, "b": 2}
         )
     ]
 )

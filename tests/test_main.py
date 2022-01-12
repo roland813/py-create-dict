@@ -81,8 +81,8 @@ def test_create_dict_with_function_argument():
 #     [
 #         (
 #             ((1, (2, [3, 4])), 2),
-#             "Cannot add (1, (2, [3, 4])), 2) to the dict!\n",
-#             {1: 0, 2: 2}
+#             "Cannot add (1, (2, [3, 4])) to the dict!\n",
+#             {2: 1}
 #         ),
 #         (
 #             (((1, 2), (3, 4), (5, (6, 7, 8, (9, "hello")))), "asdf"),

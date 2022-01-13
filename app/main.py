@@ -1,6 +1,8 @@
 def create_dict(*args):
+
     diction = {}
     value = 0
+
     for argument in args:
         # for argument in enumerate(args)
         # not need value in line4 and value to dict will be index
